@@ -1,0 +1,42 @@
+
+.buttons {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.display {
+  width: 75.8%;
+  font-size: 300%;
+  background: grey;
+  text-align: right;
+  padding: 2%;
+  color: #fff;
+}
+
+button {
+  font-size: 300%;
+  border: #fff 1px solid;
+  width: 20%;
+  transition: 0.8s;
+}
+
+button:hover {
+  border: 1px solid #000;
+}
+
+button:active {
+  font-size: 200%;
+}
+
+.fifth_row {
+  display: grid;
+  grid-template-columns: 40% 20% 20%;
+}
+
+.fifth_row > button {
+  width: 100%;
+}
+
+.operator {
+  background: rgb(255, 165, 0);
+}

@@ -2,7 +2,8 @@
 
 > Math Magicians
 
-
+### Here is a desktop preview
+![screenshot](/screenshot.png)
 
 
 ## Built With
