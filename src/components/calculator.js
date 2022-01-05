@@ -14,14 +14,12 @@ const CalculatorLayout = () => (
           <button type="button">+/-</button>
           <button type="button">%</button>
           <button className="operator" type="button">/</button>
-          {/* <button className="zero" type="button">0</button> */}
         </div>
         <div className="second_row">
           <button type="button">7</button>
           <button type="button">8</button>
           <button type="button">9</button>
           <button className="operator" type="button">x</button>
-          {/* <button type="button">.</button> */}
         </div>
         <div className="third_row">
           <button type="button">4</button>
@@ -39,7 +37,6 @@ const CalculatorLayout = () => (
           <button type="button">0</button>
           <button type="button">.</button>
           <button className="operator" type="button">=</button>
-          {/* <button type="button">+</button> */}
         </div>
       </div>
     </div>
