@@ -5,6 +5,7 @@
 ### Here is a desktop preview
 ![screenshot](/screenshot.png)
 
+Welcome to Math Magicians. Here, I have developed a calculator that can enable a user perform math calculations such as addition, subtraction, multiplication and division and receive their results. 
 
 ## Built With
 
