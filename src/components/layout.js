@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './calculator.css';
 import calculate from '../logic/calculator';
 
-export default function CalculatorLayout() {
+const CalculatorLayout = () => {
   const [state, setState] = useState({
     obj: {},
   });
@@ -57,4 +57,6 @@ export default function CalculatorLayout() {
       </div>
     </div>
   );
-}
+};
+
+export default CalculatorLayout;
