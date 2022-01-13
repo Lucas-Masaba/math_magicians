@@ -1,3 +1,14 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  background: #000;
+  color: #fff;
+}
+
+/* Calculator */
+.layoutContainer {
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
 .buttons {
   display: grid;
@@ -5,7 +16,7 @@
 }
 
 .display {
-  width: 75.8%;
+  width: 76%;
   font-size: 300%;
   height: 9vh;
   background: grey;
@@ -40,4 +51,46 @@ button:active {
 
 .operator {
   background: rgb(255, 165, 0);
+}
+
+/* navbar */
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.navBarUl {
+  display: flex;
+  list-style: none;
+}
+
+.navLink {
+  text-decoration: none;
+  transition: 300ms;
+  color: #f4913e;
+}
+
+.navLink:hover {
+  color: #fff;
+}
+
+/* Home */
+.welcome {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* Quote */
+.quoteP {
+  font-size: 140%;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.quoteContainer {
+  padding-left: 2%;
+  padding-right: 2%;
 }
