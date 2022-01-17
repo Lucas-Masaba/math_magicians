@@ -7,6 +7,12 @@
 
 Welcome to Math Magicians. Here, I have developed a calculator that can enable a user perform math calculations such as addition, subtraction, multiplication and division and receive their results. 
 
+## Live Demo
+- Heroku
+  [Here](https://lucas-masaba.github.io/to_do_list/dist) is a link to a live preview of the website deployed with heroku.
+- Netlify
+  [Here](https://hopeful-fermi-0b8cad.netlify.app/) is a link to a live preview of the website deployed with netlify.
+
 ## Built With
 
 - REACT
